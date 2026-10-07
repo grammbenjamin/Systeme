@@ -1,0 +1,37 @@
+# CLion / IntelliJ
+.idea/
+*.iml
+
+# CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+
+# Build-Dateien
+build/
+bin/
+out/
+Debug/
+Release/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# CMake generated
+compile_commands.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code (falls verwendet)
+.vscode/
