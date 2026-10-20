@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(Projekt_1 main.c linkedlist.c
         doublelinkedlist.c
-        doublelinkedlist.h)
+        doublelinkedlist.h
+        ../Projekt_2/main.c)
