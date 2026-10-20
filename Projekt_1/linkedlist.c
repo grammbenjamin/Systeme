@@ -63,7 +63,7 @@ int64_t ll_search(const ll_list *list, double wert) {
     return -1;
 }
 
-int ll_remove_X(ll_list *list, uint32_t index, double *out) {
+int ll_remove_X(ll_list *list, uint64_t index, double *out) {
     if (index >= list->size) return -1;
     if (index == 0) {
         double wert = ll_pop_front(list);
@@ -82,7 +82,7 @@ int ll_remove_X(ll_list *list, uint32_t index, double *out) {
     return 0;
 }
 
-double *ll_to_array(const ll_list *list, uint32_t *out_size) {
+double *ll_to_array(const ll_list *list, uint64_t *out_size) {
     *out_size = list->size;
     if (list->size == 0) return NULL;
     double *arr = malloc(list->size * sizeof(double));

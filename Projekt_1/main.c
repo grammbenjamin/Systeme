@@ -5,7 +5,7 @@
 #include "linkedlist.h"
 
 void ausgeben(ll_list *l) {
-    uint32_t n;
+    uint64_t n;
     double *arr = ll_to_array(l, &n);
     for (uint32_t i = 0; i < n; i++) {
         printf("%.2f ", arr[i]);
